@@ -7,5 +7,5 @@ docker_images:
 build_images:
   - name: tcis/apiserver
     path: "{{ repo_dir }}/apiserver"
-    dockerfile: "{{ repo_dir }}/Dockerfile.apiserver"
+    dockerfile: "{{ repo_dir }}/apiserver/Dockerfile"
     type: golang
