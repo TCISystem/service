@@ -3,3 +3,8 @@
 docker_images:
   - "golang:1.10.0"
   - "alpine:latest"
+
+build_images:
+  - name: tcis/apiserver
+    dockerfile: "{{ repo_dir }}/Dockerfile.apiserver"
+    type: golang
