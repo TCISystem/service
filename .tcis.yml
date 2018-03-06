@@ -4,5 +4,5 @@ go_image: golang:1.10.0
 alpine_image: alpine:latest
 
 docker_images:
-  - "{{ go_image }}"
-  - "{{ alpine_image }}"
+  - "golang:1.10.0"
+  - "alpine:latest"
