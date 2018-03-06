@@ -9,5 +9,3 @@ build_images:
     path: "{{ repo_dir }}/apiserver"
     dockerfile: "{{ repo_dir }}/apiserver/Dockerfile"
     type: golang
-    golang_mount: "github.com/TCISystem/service"
-    golang_mount_src: "{{ repo_dir }}"
